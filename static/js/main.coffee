@@ -12,8 +12,6 @@ require.config
     inspiritas: "libs/inspiritas"
     highcharts: "libs/highcharts"
     exporting: "libs/exporting"
-    dropdown: "libs/bootstrap-dropdown"
-    collapse: "libs/bootstrap-collapse"
     jstat: "libs/jstat"
     d3: "libs/d3"
     nod: "libs/nod"
@@ -24,8 +22,6 @@ require.config
 
     # Twitter Bootstrap jQuery plugins
     bootstrap: ["jquery"]
-    dropdown: ["bootstrap"]
-    collapse: ["bootstrap"]
     jstat: ["jstat"]
     highcharts:
       deps: ["jquery"]
@@ -50,9 +46,7 @@ require [
   "highcharts"
   "d3"
   "exporting"
-  "bootstrap"
-  "dropdown"
-  "collapse"],
+  "bootstrap"],
   (
     $
     App

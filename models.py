@@ -2,7 +2,6 @@ import datetime
 from sqlalchemy import Column, Integer, String, DateTime, Boolean, Text
 
 from db import Base
-from config import config
 
 TABLENAME = "table"
 

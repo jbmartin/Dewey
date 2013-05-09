@@ -2,13 +2,11 @@
 define [
         "backbone"
         'inspiritas'
-        'text!templates/aws-info.html'
         'text!templates/overview.html'
       ],
       (
         Backbone
         Inspiritas
-        AWSInfoTemplate
         OverviewTemplate
       ) ->
         class SideBarView extends Backbone.View
